@@ -22,6 +22,8 @@ Plugin 'nvim-treesitter/nvim-treesitter'
 Plugin 'hrsh7th/nvim-cmp'
 
 Plugin 'Mofiqul/dracula.nvim'
+
+Plugin 'dense-analysis/ale'
 call vundle#end()
 filetype plugin indent on
 
