@@ -33,3 +33,12 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
 colorscheme dracula
+
+"Disable ALE except on those named"
+
+let g:ale_linters = {
+\   'markdown': ['mdl'],
+\	'python': ['pylint'],
+\}
+
+let g:ale_linters_explicit = 1
