@@ -31,8 +31,6 @@ Plugin 'williamboman/mason.nvim'
 Plugin 'Mofiqul/dracula.nvim'
 
 Plugin 'dense-analysis/ale'
-
-Plugin 'neoclide/coc.nvim'
 call vundle#end()
 filetype plugin indent on
 
