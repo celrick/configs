@@ -23,3 +23,10 @@
 ALE is enabled for mdl and pylint only by default. More linters are
 listed [here](https://github.com/dense-analysis/ale/blob/master/supported-tools.md?plain=1)
 if you want to add more to init.vim.
+
+## Autocompletion
+
+Autocompletion is enabled for plain text. Plugins for specific
+languages need to be installed.
+
+Python - `:MasonInstall pyright` 
