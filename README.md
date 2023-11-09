@@ -1,6 +1,7 @@
 # Contents
 
 * ps1.sh - Custom PS1 with faces. Can be sourced
+* ps1_slurm.sh - Above but with the inclusion of number of active slurm jobs.
 * init.vim - Input file with neovim customisations.
   Should be located in ~/.config/nvim/init.vim.
 
