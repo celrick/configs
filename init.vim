@@ -46,6 +46,7 @@ colorscheme dracula
 let g:ale_linters = {
 \   'markdown': ['mdl'],
 \	'python': ['pylint'],
+\   'yaml': ['yamllint'],
 \}
 
 let g:ale_linters_explicit = 1
