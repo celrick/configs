@@ -51,6 +51,7 @@ let g:ale_linters = {
 
 let g:ale_linters_explicit = 1
 
+match Todo /#SBATCH.*\|#LENOX.*/
 
 "Lua for autocompletion and LSP"
 lua <<EOF
